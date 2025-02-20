@@ -1,13 +1,8 @@
 const sumAll = function(start,end) {
 
 
-    // use 2 variables i and k
-    // i = the first interger, k = i + 1
-    // while i < the second interger, increment i by 1 and assign it to k.
-    // the current sum = sum + k
-    // then set i = k
 
-    // check if interger and -1
+    // check if interger and not negative
     if (!Number.isInteger(start) || !Number.isInteger(end) || start < 0 || end < 0) {
         return 'ERROR'
     }
